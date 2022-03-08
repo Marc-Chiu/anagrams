@@ -1,2 +1,2 @@
 # anagrams
-Using Node.js and Javascript to make anagrams game
+Project using Javascript and Node.js

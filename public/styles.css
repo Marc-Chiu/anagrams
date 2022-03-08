@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: plum;
+}
+
+#home-view {
+  font-family: "Inter", serif;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 30pt;
+  font-family: "Crimson Text", sans-serif;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: midnightblue;
+  background-color: rgb(152, 144, 228);
+  border: solid plum;
+  box-shadow: 0 4px 2px -2px gray;
+  font-size: 18px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: mediumpurple;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+header > p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#home-pieces, #curr-letters, #board {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.disappear {
+  display: none;
+}
+
+.score-board {
+  background-color: thistle;
+  font-size: 24px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0.5rem ridge purple;
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 75px;
+}
+
+#board {
+  margin-top: 30px;
+}
+
+.board {
+  width: 75px;
+  height: 70px;
+}
+
+.score, .words {
+  margin: 0px 0px 10px 0px;
+}
+
+.hidden-border {
+  border: none;
+}
+
+.letter {
+  width: 85px;
+  height: 80px;
+}
+
+.border {
+  width: 75px;
+  height: 60px;
+  margin: 5px;
+}
+
+#words-found {
+  width: 300px;
+  height: 500px;
+  background-color: thistle;
+  border: 0.5rem ridge purple;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#response-container {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
